@@ -1,0 +1,7 @@
+{
+  "name": "parecon_front_proto",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "parecon_front_proto",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
