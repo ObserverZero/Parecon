@@ -1,18 +1,27 @@
 import { Redirect, Route } from 'react-router-dom';
 import {
   IonApp,
+  IonButton,
+  IonButtons,
   IonIcon,
-  IonLabel,
   IonRouterOutlet,
   IonTabBar,
   IonTabButton,
   IonTabs,
+  IonTitle,
+  IonToolbar,
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { ellipse, square, triangle } from 'ionicons/icons';
-import Tab1 from './pages/Tab1';
-import Tab2 from './pages/Tab2';
-import Tab3 from './pages/Tab3';
+import {
+  navigate,
+  chatbubble,
+  search,
+  peopleCircle,
+  menu,
+} from 'ionicons/icons';
+import Navigation from './pages/Navigation';
+import Interaction from './pages/Interaction';
+import Communication from './pages/Communication';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -38,35 +47,45 @@ const App: React.FC = () => (
     <IonReactRouter>
       <IonTabs>
         <IonRouterOutlet>
-          <Route exact path="/tab1">
-            <Tab1 />
+          <Route exact path="/navigation">
+            <Navigation />
           </Route>
-          <Route exact path="/tab2">
-            <Tab2 />
+          <Route exact path="/interaction">
+            <Interaction />
           </Route>
-          <Route path="/tab3">
-            <Tab3 />
+          <Route path="/communication">
+            <Communication />
           </Route>
           <Route exact path="/">
-            <Redirect to="/tab1" />
+            <Redirect to="/interaction" />
           </Route>
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
-          <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon icon={triangle} />
-            <IonLabel>Tab 1</IonLabel>
+          <IonTabButton tab="interaction" href="/interaction">
+            <IonIcon icon={peopleCircle} />
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={ellipse} />
-            <IonLabel>Tab 2</IonLabel>
+          <IonTabButton tab="communication" href="/communication">
+            <IonIcon icon={chatbubble} />
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={square} />
-            <IonLabel>Tab 3</IonLabel>
+          <IonTabButton tab="navigation" href="/navigation">
+            <IonIcon icon={navigate} />
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
     </IonReactRouter>
+    <IonToolbar>
+      <IonTitle>XR.oslo(app)</IonTitle>
+      <IonButtons slot="start">
+        <IonButton>
+          <IonIcon slot="icon-only" icon={menu} />
+        </IonButton>
+      </IonButtons>
+      <IonButtons slot="end">
+        <IonButton>
+          <IonIcon slot="icon-only" icon={search} />
+        </IonButton>
+      </IonButtons>
+    </IonToolbar>
   </IonApp>
 );
 
