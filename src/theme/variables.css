@@ -234,3 +234,14 @@ http://ionicframework.com/docs/theming/ */
     --ion-card-background: #1e1e1e;
   }
 }
+ion-fab-button {
+  outline: solid #1e1e1e;
+  outline-width: 6px;
+  border-radius: 50%;
+  --color: #111111;
+}
+.menuProfileButton {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+}

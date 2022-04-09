@@ -1,0 +1,66 @@
+[
+  {
+    "name": "petrikathedonkey",
+    "display_name": "Petrika The Donkey",
+    "avatar":  "/assets/avatars/2.jpg",
+    "description": "I am Titi Suru's Friend!",
+    "affinitygroups": [],
+    "conversations": {}
+  },
+  {
+    "name": "thelynx",
+    "display_name": "The Lynx",
+    "avatar":  "/assets/avatars/8.jpg",
+    "description": "I'm friends with Titi Suru.",
+    "affinitygroups": [],
+    "conversations": {}
+  },
+  {
+    "name": "littlewolf",
+    "display_name": "Little Wolf",
+    "avatar":  "/assets/avatars/13.jpg",
+    "description": "I'm Titi Suru's little brother.",
+    "affinitygroups": [],
+    "conversations": {}
+  },
+  {
+    "name": "radathegoat",
+    "display_name": "Rada The Goat",
+    "avatar":  "/assets/avatars/29.jpg",
+    "description": "I'm the mother of five little Goat childen <3",
+    "affinitygroups": [],
+    "conversations": {}
+  },
+  {
+    "name": "thesquirrel",
+    "display_name": "The Squirrel",
+    "avatar":  "/assets/avatars/16.jpg",
+    "description": "I look like Vibeke!",
+    "affinitygroups": [],
+    "conversations": {}
+  },
+  {
+    "name": "theswallow",
+    "display_name": "The Swallow",
+    "avatar":  "/assets/avatars/23.jpg",
+    "description": "I sing better than Rada or Titit Suru",
+    "affinitygroups": [],
+    "conversations": {}
+  },
+  {
+    "name": "theparrot",
+    "display_name": "The Parrot",
+    "avatar":  "/assets/avatars/24.jpg",
+    "description": "Everything I sell is better in many ways!",
+    "affinitygroups": [],
+    "conversations": {}
+  },
+  {
+    "name": "thelamb",
+    "display_name": "The Lamb",
+    "avatar":  "/assets/avatars/22.jpg",
+    "description": "I got a crush on Petrika <3",
+    "affinitygroups": [],
+    "conversations": {}
+  }
+]

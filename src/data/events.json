@@ -1,0 +1,24 @@
+[
+  {
+    "name": "xrloppismai22",
+    "display_name": "L'oppis Mai på Eventyrbroen!",
+    "description": "Salg av klær, mat og annet. Ikke gå glipp av våres Slow Catwalk!",
+    "member_groups": ["xrloppisoslo", "xroslomatrguppen", "xroslotransport", "xrosloaksjonsgruppen"],
+    "member_people": [],
+    "comments_public": [],
+    "comments_private": [],
+    "time": "1651921200",
+    "banner": "/assets/banners/024.png"
+  },
+  {
+    "name": "diskuterestatensovergivelse",
+    "display_name": "Statens Overgivelse",
+    "description": "Staten overgir seg og prinsippene for overgivelsen skal diskuteres.",
+    "member_groups": ["xrnorway", "norgesstat"],
+    "member_people": ["titisuru"],
+    "comments_public": [],
+    "comments_private": [],
+    "time": "1659348000",
+    "banner": "/assets/banners/124.png"
+  }
+]

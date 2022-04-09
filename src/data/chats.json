@@ -1,0 +1,108 @@
+[
+  {
+    "participants": ["titisuru", "petrikathedonkey"],
+    "messages": [
+      { "sender": "titisuru", "message": "who'd you kick?" },
+      { "sender": "petrikathedonkey", "message": "nobody" },
+      { "sender": "titisuru", "message": "no, you kicked someone..." },
+      { "sender": "petrikathedonkey", "message": "ok, the bear..." },
+      { "sender": "titisuru", "message": "wtf?!" },
+      { "sender": "petrikathedonkey", "message": "he sucks..." },
+      { "sender": "titisuru", "message": "sure, he sucks!" },
+      { "sender": "petrikathedonkey", "message": "so I kicked him..." },
+      { "sender": "titisuru", "message": "lighten up, dude!" }
+    ]
+  },
+  {
+    "participants": ["titisuru", "radathegoat"],
+    "messages": [
+      { "sender": "titisuru", "message": "where's the gold?" },
+      { "sender": "radathegoat", "message": "patience!" },
+      { "sender": "titisuru", "message": "fuck that, gimme the gold!" },
+      { "sender": "radathegoat", "message": "said fucking patience!" },
+      { "sender": "titisuru", "message": "now!" },
+      { "sender": "radathegoat", "message": "where are the kids?" },
+      { "sender": "titisuru", "message": "you mean the brats?" },
+      { "sender": "radathegoat", "message": "fuck you. want the gold?" },
+      { "sender": "titisuru", "message": "yeah!" },
+      { "sender": "radathegoat", "message": "gold is on the ice!" },
+      { "sender": "titisuru", "message": "wheee!" },
+      { "sender": "radathegoat", "message": "haha!!" },
+      { "sender": "titisuru", "message": "fuck u!" }
+    ]
+  },
+  {
+    "participants": ["titisuru", "thelamb"],
+    "messages": [
+      {
+        "sender": "titisuru",
+        "message": ""
+      },
+      {
+        "sender": "thelamb",
+        "message": ""
+      },
+      {
+        "sender": "titisuru",
+        "message": ""
+      },
+      {
+        "sender": "thelamb",
+        "message": ""
+      },
+      {
+        "sender": "titisuru",
+        "message": ""
+      },
+      {
+        "sender": "thelamb",
+        "message": ""
+      },
+      {
+        "sender": "titisuru",
+        "message": ""
+      },
+      {
+        "sender": "thelamb",
+        "message": ""
+      },
+      {
+        "sender": "titisuru",
+        "message": ""
+      },
+      {
+        "sender": "thelamb",
+        "message": ""
+      },
+      {
+        "sender": "titisuru",
+        "message": ""
+      },
+      {
+        "sender": "thelamb",
+        "message": ""
+      },
+      {
+        "sender": "",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "participants": ["", ""],
+    "messages": [
+      {
+        "sender": "",
+        "message": ""
+      },
+      {
+        "sender": "",
+        "message": ""
+      },
+      {
+        "sender": "",
+        "message": ""
+      }
+    ]
+  }
+]

@@ -1,16 +1,40 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import './Interaction.css';
+import {
+    IonCard,
+    IonCardContent, IonCardHeader,
+    IonCardSubtitle, IonCardTitle,
+    IonContent, IonImg,
+    IonItem,
+    IonList,
+    IonPage,
+} from '@ionic/react';
+
+import './Navigation.css';
+
+import 'swiper/swiper-bundle.min.css';
+import '@ionic/react/css/ionic-swiper.css';
+
+import 'swiper/swiper-bundle.min.css';
+import '@ionic/react/css/ionic-swiper.css';
+
+import SwiperCore, {Virtual} from 'swiper';
+
+import GroupComponent from "../components/GroupComponent";
+import affinitygroups from "../data/affinitygroups.json"
+
+SwiperCore.use([Virtual]);
 
 const Interaction: React.FC = () => {
     return (
         <IonPage>
             <IonContent>
-                <h1>Interaction</h1>
-                <h1>Interaction</h1>
-                <p>TODO: Shuffle members of a particular group. This could expose the dashboard features of each
-                    individual group.</p>
-                <p>TODO: We might need a microblog feature.</p>
-                <p>TODO: Voting system.</p>
+                <IonList>
+                    <p>Interaction</p>
+                    {affinitygroups.map(item => {
+                        return (
+                            <GroupComponent {...item}/>
+                        )
+                    })}
+                </IonList>
             </IonContent>
         </IonPage>
     );
